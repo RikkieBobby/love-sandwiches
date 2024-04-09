@@ -19,7 +19,7 @@ def get_sales_data():
     """
     print("Please enter the sales data from the last market")
     print("Data should eb six numbers, sperated by commas")
-    print("Example: 10,20,30,40,50,60")
+    print("Example: 10,20,30,40,50,60\n")
 
     data_str = input("Enter your data here: ")
     print(f"The data provided is {data_str}")
